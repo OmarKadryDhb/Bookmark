@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+}
+.body-btn button{
+    width: 12%;
+    background-color: #D1512D;
+    transition: all 0.5s;
+}
+.body-btn button:hover{
+    background-color: #bd3b17;
+}
+.head{
+    position: relative;
+    width: fit-content;    
+}
+.head h1{
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.125rem;
+}
+.head::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 40%;
+    background-color:rgb(255, 176, 31);
+    bottom: 0%;
+    transition: all 0.3s;
+}
+.head:hover::before{
+    height: 70%;
+}
+.body-title h4{
+    font-family: 'Righteous', cursive;
+    color:rgb(6, 139, 6);
+}
+.body-title i{
+    color:rgb(6, 139, 6);
+}
+.body-input span {
+    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+table{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+table tbody button a {
+    background-color: #9EB23B;
+}
+.website span{
+    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
